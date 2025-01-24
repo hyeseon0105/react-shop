@@ -14,6 +14,8 @@ function App() {
   const [product, setProduct] = useState(data);
   let navigate = useNavigate();
 
+  localStorage.setItem('data', JSON.stringify(product))
+
   return (
     <div className="App">
       <Navbar bg="dark" data-bs-theme="dark">

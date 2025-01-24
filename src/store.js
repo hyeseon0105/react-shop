@@ -102,7 +102,7 @@ let cartData = createSlice({
 
 let loggindUser = createSlice({
   name : 'loggindUser',
-  initialState : 'zzzmini',
+  initialState : 'sunny',
   // 수정
   reducers : {
     // state : 원래의 데이터를 의미(zzzmini)

@@ -32,7 +32,7 @@ function Detail(props) {
 
   useEffect(() => {
     axios
-      .get('https://zzzmini.github.io/js/shoesReview.json')
+      .get('https://hyeseon0105.github.io/js/shoesReview.json')
       .then((result) => {
         // 요청 성공시 처리할 곳
         // console.log(result.data)
