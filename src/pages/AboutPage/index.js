@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+// eslint no-restricted-globals['off']
 
 function AboutPage(){
   return(
